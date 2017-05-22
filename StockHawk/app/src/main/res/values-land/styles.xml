@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="DetailBidPriceTextStyle" parent="BidPriceTextStyle">
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_column">0</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="DetailPercentageChangeTextStyle" parent="PercentChangeTextStyle">
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_column">0</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+</resources>

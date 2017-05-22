@@ -1,0 +1,49 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="PercentChangeTextStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/highlight_padding</item>
+        <item name="android:paddingEnd">@dimen/highlight_padding</item>
+        <item name="android:background">@drawable/percent_change_pill_green</item>
+    </style>
+
+    <style name="BidPriceTextStyle">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="StockSymbolTextStyle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="DetailBidPriceTextStyle" parent="BidPriceTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="DetailPercentageChangeTextStyle" parent="PercentChangeTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="ErrorMessageTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_marginStart">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginEnd">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
