@@ -75,7 +75,7 @@ public final class QuoteSyncJob {
                 final String symbol = iterator.next();
                 Stock stock = quotes.get(symbol);
 
-                if (stock.getName() == null) {
+                if (stock == null || stock.getName() == null) {
                     Timber.d("Quote doesn't exists, it will be removed...");
                     PrefUtils.removeStock(context, symbol);
 
